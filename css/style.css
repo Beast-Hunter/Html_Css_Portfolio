@@ -1,0 +1,103 @@
+#top_container {
+    background: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.intro-name {
+    padding-top: 55px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    color: rgb(45, 45, 157);
+}
+
+.intro-desc {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(45, 45, 157);
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+p,h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.mountain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cloud {
+    position: relative;
+}
+
+.above {
+    left: 70%;
+    top: 40px;
+}
+
+.below {
+    left: 15%;
+}
+
+/* */
+.blued {
+    color: rgb(45, 45, 157);
+}
+.sans {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.serif {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+hr {
+    border: dotted #6b6b6b 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+    clear: left;
+}
+
+/**/
+#skills p {
+    width: 1000px;
+}
+.sk_images {
+    float: left;
+    margin: 0 50px 50px 250px;
+}
+.box2 {
+    clear: left;
+    padding-bottom: 100px;
+}
+/**/
+#contact-me {
+    text-align: center;
+}
+.cyan {
+    color: rgb(0, 183, 255);
+}
+
+.btn {
+    color: white;
+    background-color: rgb(0, 183, 255);
+}
+
+/**/
+footer {
+    background-color: #8495e9;
+    color: #6A82FB;
+}

@@ -72,14 +72,15 @@ hr {
 }
 
 /**/
-#skills  {
-    text-align: center;
-}
+
 #skills p {
     text-align: left;
     width: 1000px;
 }
 @media (max-width:1000px) {
+    #skills {
+        text-align: center;
+    }
     #skills p {
         clear: left;
         text-align: center;

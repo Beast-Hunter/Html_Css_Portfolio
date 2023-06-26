@@ -72,12 +72,30 @@ hr {
 }
 
 /**/
+#skills  {
+    text-align: center;
+}
 #skills p {
+    text-align: left;
     width: 1000px;
+}
+@media (max-width:1000px) {
+    #skills p {
+        clear: left;
+        text-align: center;
+        width: 600px;
+    }
+    #skills h3 {
+        clear: left;
+    }
+    .sk_images {
+        float: none;
+        margin: auto;
+    }
 }
 .sk_images {
     float: left;
-    margin: 0 50px 50px 250px;
+    margin: 50px 50px 50px 200px;
 }
 .box2 {
     clear: left;
